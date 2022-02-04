@@ -1,0 +1,24 @@
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post {
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+
+#content-post {
+    text-align: center;
+}
+
+ul#comments {
+    list-style: none;
+}
+
+ul#comments li{
+    background-color: bisque;
+    padding:5px;
+    margin-bottom: 5px;
+}
